@@ -9,7 +9,7 @@ body {
 /* HERO COVER */
 .hero {
     height: 260px;
-    background: url('cover.jpg.jpeg') center/cover no-repeat;
+    background: url('images/cover.jpg') center/cover no-repeat;
 }
 
 /* INTRO SECTION */
