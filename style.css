@@ -28,7 +28,7 @@ body {
     top: -55px;
     left: 40px;
     border: 4px solid white;
-    object-fit: cover;
+    object-fit: cover;   /* IMPORTANT */
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
