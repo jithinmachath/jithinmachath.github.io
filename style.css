@@ -1,100 +1,63 @@
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    margin: 0;
-    background: #0f172a;
-    color: #e2e8f0;
+    background: #f1f5f9;
 }
 
-header {
-    background: #020617;
-    padding: 25px;
-    text-align: center;
-}
-
-nav {
-    text-align: center;
-    margin: 15px;
-}
-
-nav a {
-    margin: 10px;
-    color: #38bdf8;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-section {
-    padding: 20px;
-    max-width: 900px;
-    margin: auto;
-}
-
-footer {
-    text-align: center;
-    padding: 15px;
-    background: #020617;
-}
-
-h3 {
-    color: #38bdf8;
-}
-
-ul {
-    line-height: 1.6;
-}
-
+/* HERO */
 .hero {
-    background: #020617;
-    padding: 40px 20px;
+    height: 250px;
+    background: url('cover.jpg.jpeg') center/cover no-repeat;
 }
 
-.hero-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
+/* PROFILE */
+.profile-section {
     text-align: left;
-}
-
-.profile-pic {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #38bdf8;
-}
-
-.hero-content h1 {
-    margin: 0;
-}
-
-.hero-content p {
-    margin-top: 8px;
-}
-
-.hero {
-    background: url('cover.jpg.jpeg') no-repeat center center/cover;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px 40px;
+    background: #e2e8f0;
     position: relative;
 }
 
-.overlay {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 30px;
-    text-align: center;
+.profile-img {
+    width: 90px;
+    height: 90px;
     border-radius: 10px;
+    position: absolute;
+    top: -45px;
+    left: 40px;
+    border: 3px solid white;
 }
 
-.overlay h1 {
-    font-size: 36px;
-    margin: 0;
+.profile-section h1 {
+    margin-top: 50px;
+    font-size: 28px;
 }
 
-.overlay p {
-    margin-top: 10px;
-    font-size: 18px;
+.quote {
+    font-size: 14px;
+    color: #475569;
 }
+
+/* LAYOUT */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+/* EDUCATION GRID */
+.edu-grid {
+    display:
