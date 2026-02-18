@@ -9,8 +9,12 @@ body {
 /* HERO COVER */
 .hero {
     height: 260px;
-    background: url('images/cover.jpg') center/cover no-repeat;
+    background: linear-gradient(135deg, #3b82f6, #6366f1, #a855f7);
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
 }
+
 
 /* INTRO SECTION */
 .intro {
@@ -82,5 +86,21 @@ body {
     border-radius: 8px;
     flex: 1;
     text-align: center;
+    font-size: 14px;
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 34px;
+    margin: 0;
+}
+
+.hero-text p {
+    color: #e0e7ff;
+    margin: 5px 0;
+}
+
+.subtext {
+    color: #c7d2fe;
     font-size: 14px;
 }
