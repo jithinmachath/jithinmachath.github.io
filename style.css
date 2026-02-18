@@ -42,3 +42,34 @@ h3 {
 ul {
     line-height: 1.6;
 }
+
+.hero {
+    background: #020617;
+    padding: 40px 20px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #38bdf8;
+}
+
+.hero-content h1 {
+    margin: 0;
+}
+
+.hero-content p {
+    margin-top: 8px;
+}
+
