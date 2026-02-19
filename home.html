@@ -7,6 +7,18 @@
 
 <body>
 
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+        <h2>JM</h2>
+        <div>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+        </div>
+    </div>
+</nav>
+
 <!-- HERO -->
 <header class="hero">
     <div class="hero-container">
@@ -29,8 +41,8 @@
 
             <p class="quote">
                 <span>
-                “Your work is going to fill a large part of your life, and the only way 
-                to be truly satisfied is to do what you believe is great work.”
+                Your work is going to fill a large part of your life, and the only way 
+                to be truly satisfied is to do what you believe is great work.
                 </span>
             </p>
         </div>
@@ -42,82 +54,64 @@
 <section class="container">
 
     <!-- ABOUT -->
-    <div class="card">
+    <div class="card" id="about">
         <h2>👤 About Me</h2>
         <p>Mechanical Design Engineer with 4+ years of experience in robotics and industrial systems.</p>
         <p>Focused on system-level design, manufacturable solutions, and real-world deployment.</p>
     </div>
 
     <!-- EDUCATION -->
-    <div class="card">
+    <div class="card" id="education">
         <h2>🎓 Education & Certifications</h2>
 
         <h3 class="sub-heading">Education</h3>
 
-        <!-- UG -->
         <div class="edu-block">
             <img src="images/gec.jpg" class="edu-logo">
             <div>
-                <h4>B.Tech – Mechanical Engineering</h4>
+                <h4>B.Tech Mechanical Engineering</h4>
                 <p><strong>2012 – 2016</strong></p>
-
                 <p class="edu-inst">
                     <a href="https://gectcr.ac.in/" target="_blank">
                         Government Engineering College, Thrissur
                     </a>
                 </p>
-
                 <p class="edu-desc">
-                Built strong fundamentals in core mechanical engineering with hands-on exposure to labs, workshops, and real-world applications.
+                Built a strong foundation in core mechanical engineering disciplines including thermodynamics, mechanics, and manufacturing with practical exposure.
                 </p>
             </div>
         </div>
 
-        <!-- PG -->
         <div class="edu-block">
             <img src="images/iiitdm.png" class="edu-logo">
             <div>
-                <h4>M.Des – Mechanical Systems</h4>
+                <h4>M.Des Mechanical Systems</h4>
                 <p><strong>2017 – 2019</strong></p>
-
                 <p class="edu-inst">
                     <a href="https://www.iiitdm.ac.in/" target="_blank">
                         IIITDM Kancheepuram
                     </a>
                 </p>
-
-                <p class="edu-links">
-                    <a href="file_attachements/MDes_Equal_cert.pdf" target="_blank">Course Equivalency</a>
-                </p>
-
                 <p class="edu-desc">
-                Focused on product engineering, system design, mechatronics, and simulation-driven development through project-based learning.
+                Focused on product engineering, FEA, mechatronics, and system-level design with project-driven learning.
                 </p>
             </div>
         </div>
 
         <h3 class="sub-heading">Certifications</h3>
 
-        <!-- CERT -->
         <div class="edu-block">
             <img src="images/imc.png" class="edu-logo">
             <div>
                 <h4>Lean Six Sigma Black Belt</h4>
                 <p><strong>2025</strong></p>
-
                 <p class="edu-inst">
                     <a href="https://imccertifications.com/" target="_blank">
                         IMC
                     </a>
                 </p>
-
                 <p class="edu-links">
-                    <a href="file_attachements/C-2025-51795.pdf" target="_blank">IMC</a>
-                    <a href="file_attachements/CPD-C-2025-51795.pdf" target="_blank">CPD</a>
-                </p>
-
-                <p class="edu-desc">
-                Applied DMAIC methodology for structured problem solving and process improvement.
+                    <a href="file_attachements/C-2025-51795.pdf" target="_blank">Certificate</a>
                 </p>
             </div>
         </div>
@@ -127,36 +121,42 @@
 </section>
 
 <!-- PROJECTS -->
-<section class="projects-section">
+<section class="projects-section" id="projects">
 
     <h2>🚀 Projects</h2>
 
     <!-- PROJECT -->
     <div class="project-card">
 
-        <h3>DRACO – Tank Cleaning Robot</h3>
-        <p class="project-sub">R&D | Robotics | Hazardous Systems</p>
+        <div class="project-header">
+            <h3>DRACO – Tank Cleaning Robot</h3>
+            <span class="project-tag">R&D | Robotics</span>
+        </div>
 
         <p class="project-desc">
-        In-service tank cleaning robot designed for hazardous environments without shutdown.
+        In-service robotic system for crude oil tank cleaning without shutdown.
         </p>
 
         <!-- MEDIA -->
         <div class="project-media">
+
             <div class="media-box">
                 <img src="images/project1.jpg">
             </div>
 
             <div class="media-box">
-                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID"></iframe>
+                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
             </div>
+
         </div>
 
+        <!-- DETAILS -->
         <div class="project-grid">
+
             <div>
-                <h4>Key Work</h4>
+                <h4>Key Contributions</h4>
                 <ul>
-                    <li>Mechanical architecture</li>
+                    <li>System design</li>
                     <li>Hydraulic integration</li>
                     <li>Structural optimization</li>
                 </ul>
@@ -165,11 +165,12 @@
             <div>
                 <h4>Impact</h4>
                 <ul>
-                    <li>No shutdown required</li>
-                    <li>Improved safety</li>
-                    <li>Reduced manual work</li>
+                    <li>Eliminated shutdown downtime</li>
+                    <li>Improved operational safety</li>
+                    <li>Increased efficiency</li>
                 </ul>
             </div>
+
         </div>
 
     </div>
