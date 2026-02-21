@@ -363,3 +363,26 @@ body.dark .nav-links a:hover {
         font-size: 28px;
     }
 }
+
+
+section, article {
+    scroll-margin-top: 80px;
+}
+
+
+@media (max-width: 768px) {
+
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+
+
