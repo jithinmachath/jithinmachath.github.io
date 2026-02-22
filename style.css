@@ -373,5 +373,15 @@ body.dark #theme-toggle {
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* FIX OFFSET FOR STICKY NAVBAR */
+section,
+article {
+    scroll-margin-top: 80px;
+}
+
 
 
