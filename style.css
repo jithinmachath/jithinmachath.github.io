@@ -163,8 +163,8 @@ body.dark .navbar {
 .hero-quote p::before,
 .hero-quote p::after {
     content: '"';
-    font-size: 28px;
-    opacity: 0.6;
+    font-size: 26px;
+    opacity: 0.5;
 }
 body.dark .hero-quote {
     color: #cbd5f5;
