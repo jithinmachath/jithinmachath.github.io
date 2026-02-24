@@ -159,6 +159,11 @@ body.dark .navbar {
     line-height: 1.8;
     letter-spacing: 0.3px;
     margin: 0;
+    opacity: 0.95;
+}
+
+.hero-quote {
+    max-width: 420px;
 }
 
 .hero-quote p::before,
@@ -172,13 +177,6 @@ body.dark .navbar {
 .hero-quote .line1,
 .hero-quote .line2 {
     opacity: 0.9;
-}
-
-/* HIGHLIGHT (KEY IMPACT WORDS) */
-.hero-quote .highlight {
-    font-size: 26px;
-    color: #38bdf8; /* accent blue */
-    font-weight: 500;
 }
 
 /* DARK MODE */
