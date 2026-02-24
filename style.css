@@ -53,6 +53,13 @@ body.dark .navbar {
 .nav-logo {
     font-weight: 700;
     font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.nav-logo:hover {
+    color: #2563eb;
 }
 
 .nav-links {
