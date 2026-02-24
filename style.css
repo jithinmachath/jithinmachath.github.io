@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 /* ================= BASE ================= */
 html {
@@ -105,8 +105,8 @@ body.dark .navbar {
 .hero-text {
     position: relative;
     z-index: 1;
-    padding: 0 40px;
     color: white;
+    max-width: 550px;
 }
 
 .hero-text h1 {
@@ -364,3 +364,55 @@ article {
         height: 220px;
     }
 }
+
+/* HERO LAYOUT */
+.hero-container {
+    position: relative;
+    z-index: 1;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* QUOTE STYLE */
+.hero-quote {
+    max-width: 420px;
+    text-align: right;
+    color: #e2e8f0;
+}
+
+.hero-quote p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+/* DARK MODE */
+body.dark .hero-quote {
+    color: #cbd5f5;
+}
+
+@media (max-width: 768px) {
+
+    .hero-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-quote {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+}
+
+.hero-quote p {
+    text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+
+
