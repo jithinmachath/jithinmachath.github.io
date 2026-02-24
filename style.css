@@ -152,12 +152,13 @@ body.dark .navbar {
     justify-content: flex-end;
 }
 
+/* BASE QUOTE */
 .hero-quote p {
     font-family: 'Courgette', cursive;
     font-size: 22px;
-    line-height: 1.7;
+    line-height: 1.8;
     letter-spacing: 0.3px;
-    opacity: 0.95;
+    margin: 0;
 }
 
 .hero-quote p::before,
@@ -166,8 +167,23 @@ body.dark .navbar {
     font-size: 26px;
     opacity: 0.5;
 }
-body.dark .hero-quote {
-    color: #cbd5f5;
+
+/* LINE BALANCE */
+.hero-quote .line1,
+.hero-quote .line2 {
+    opacity: 0.9;
+}
+
+/* HIGHLIGHT (KEY IMPACT WORDS) */
+.hero-quote .highlight {
+    font-size: 26px;
+    color: #38bdf8; /* accent blue */
+    font-weight: 500;
+}
+
+/* DARK MODE */
+body.dark .hero-quote .highlight {
+    color: #60a5fa;
 }
 
 /* ================= INTRO ================= */
