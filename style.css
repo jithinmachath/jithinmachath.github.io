@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 /* ================= BASE ================= */
 html {
@@ -145,13 +145,19 @@ body.dark .navbar {
 }
 
 .hero-quote p {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 26px;
-    line-height: 1.6;
-    opacity: 0.95;
-    text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    letter-spacing: 0.6px;
+    opacity: 0.85;
 }
 
+.hero-quote p::before,
+.hero-quote p::after {
+    content: '"';
+    font-size: 28px;
+    opacity: 0.6;
+}
 body.dark .hero-quote {
     color: #cbd5f5;
 }
