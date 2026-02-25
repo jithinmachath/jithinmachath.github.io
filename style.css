@@ -442,3 +442,30 @@ article {
         height: 220px;
     }
 }
+
+/* ACHIEVEMENTS */
+.achievements-list {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.achievements-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* EXPERIENCE */
+.exp-block h3 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.exp-meta {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 12px;
+}
+
+body.dark .exp-meta {
+    color: #cbd5f5;
+}
