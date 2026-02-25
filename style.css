@@ -469,3 +469,47 @@ article {
 body.dark .exp-meta {
     color: #cbd5f5;
 }
+
+
+.project-story {
+    margin-top: 10px;
+    color: #475569;
+}
+
+body.dark .project-story {
+    color: #cbd5f5;
+}
+
+/* FLOW TAGS */
+.project-flow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.project-flow span {
+    font-size: 12px;
+    background: #eef2ff;
+    color: #4338ca;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+body.dark .project-flow span {
+    background: #1e293b;
+    color: #93c5fd;
+}
+
+/* ROLE */
+.project-role {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #475569;
+}
+
+body.dark .project-role {
+    color: #cbd5f5;
+}
+
+
